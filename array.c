@@ -1,21 +1,21 @@
-#include <stdio.h>
+#include<stdio.h>
 
 //function to find smallest value in a array
 
 
 int smallest(int arr[],int size)
 {
- int min=arr[0];
- int i;
-  for(i=1;i<size;i++)
-   {
-     if(arr[i]<min)
-      {
-        min=arr[i];
-		}
+  int min=arr[0];
+  int i;
+   for(i=1;i<size;i++)
+    {
+      if(arr[i]<min)
+       {
+         min=arr[i];
+       }
 	  
-	}
-	return min;
+    }
+    return min;
 }	
 
 //function to find largest value in a array
