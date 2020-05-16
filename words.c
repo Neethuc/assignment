@@ -1,3 +1,5 @@
+//Given a string containing n number of words. If the count of words in string is even then reverse its even position words else reverse its odd position, push reversed words at the start of a new string and append the remaining words as it is in order.
+
 //C program to reverse string  
 // according to the number of words  
 #include<stdio.h> 
