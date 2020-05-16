@@ -1,3 +1,5 @@
+//Write a program to count vowels, consonants and spaces from a string.
+
 #include <stdio.h>
 int main()
  {
