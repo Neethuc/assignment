@@ -43,7 +43,9 @@ void reverseletter(char str[], int start, int end) {
 // Driver Code 
 int main() 
 { 
-    char str[1000] = "Ashish Yadav Abhishek Rajput Sunil Pundir"; 
+    char str[1000];
+    printf("enter the string\n");
+    gets(str);	
     reverseletter(str, 0, strlen(str)-1); 
     printf("%s", str); 
     return 0; 
