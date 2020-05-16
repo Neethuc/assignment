@@ -1,3 +1,5 @@
+//Write a function to find the largest and smallest number in an array without using any inbuilt functions.
+
 #include <stdio.h>
 
 //function to find smallest value in a array
