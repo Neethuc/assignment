@@ -46,7 +46,7 @@ return max;
     int arr[100],j,size,min;
     
      printf("enter the number of elements\n");
-     int size=5;
+     size=5;
      scanf("%d",&size);
      printf("enter the elements\n");
      
