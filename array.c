@@ -46,15 +46,17 @@ return max;
     int arr[100],j,size,min;
     
      printf("enter the number of elements\n");
-     scanf("%d",&size);
+     scanf("%d",5);
      printf("enter the elements\n");
      
-     for(j=0;j<size;j++)
-        {
-          scanf("%d",&arr[j]);
-        }
+     arr[0]=1;
+     arr[1]=2;
+     arr[2]=3;
+     arr[3]=4;
+     arr[4]=5;
         
-        printf("the largest integer in the array is %d\n",largest(arr,size));
-        printf("the smallest integer in the array is %d\n",smallest(arr,size));
+        
+     printf("the largest integer in the array is %d\n",largest(arr,size));
+     printf("the smallest integer in the array is %d\n",smallest(arr,size));
 		
     }
